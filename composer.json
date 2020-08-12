@@ -1,0 +1,25 @@
+{
+    "name": "minz/apple-pay",
+    "description": "apple pay verify",
+    "keywords": [
+        "apple pay"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "minz",
+            "email": "zhaomin2719@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "curl/curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Minz\\Apple\\Pay\\": "src"
+        }
+    }
+}
